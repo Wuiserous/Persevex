@@ -16,14 +16,15 @@ export default function HeroSection() {
           text-transparent
           bg-clip-text
           bg-gradient-to-b
-          from-black/60
-          to-white/30
+          from-blue-500
+          to-black
           h1-shadow
         ">
           Persevex
         </h1>
-        <span className="lg:text-2xl mb-10 text-white/60 text-center lg:w-[650px]">Where innovation meets real-world learning through expert education and impactful internships.</span>
-        <button class="button">Explore courses</button>
+        <span className="lg:text-2xl mb-10 text-white text-center lg:w-[650px]">Where innovation meets real-world learning through expert education and impactful internships.</span>
+        <button class="button">
+          Explore courses</button>
       </div>
     </div>
   );

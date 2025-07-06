@@ -61,7 +61,7 @@ export default function Stars() {
       stars.forEach((star) => {
         ctx.beginPath();
         ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
+        ctx.fillStyle = `rgba(0, 150, 255, ${star.alpha})`;
         ctx.fill();
         star.x += star.dx;
         star.y += star.dy;
@@ -84,7 +84,7 @@ export default function Stars() {
           shootingStar.x - shootingStar.length * shootingStar.dx,
           shootingStar.y - shootingStar.length * shootingStar.dy
         );
-        ctx.strokeStyle = `rgba(255, 255, 255, ${shootingStar.alpha})`;
+        ctx.strokeStyle = `rgba(0, 150, 255, ${shootingStar.alpha})`;
         ctx.lineWidth = 2;
         ctx.stroke();
 

@@ -52,25 +52,25 @@ export default function NavBar() {
         >
           Persevex
         </span>
-        <span className="relative z-10 cursor-pointer mr-5 text-white/25 hover:text-white" onMouseEnter={handleMouseEnter}>
+        <span className="relative z-10 cursor-pointer mr-5 text-blue-500/60 hover:text-white" onMouseEnter={handleMouseEnter}>
           Courses
         </span>
-        <span className="relative z-10 cursor-pointer mr-5 text-white/25 hover:text-white" onMouseEnter={handleMouseEnter}>
+        <span className="relative z-10 cursor-pointer mr-5 text-blue-500/60 hover:text-white" onMouseEnter={handleMouseEnter}>
           Internship
         </span>
-        <span className="relative z-10 cursor-pointer mr-5 text-white/25 hover:text-white" onMouseEnter={handleMouseEnter}>
+        <span className="relative z-10 cursor-pointer mr-5 text-blue-500/60 hover:text-white" onMouseEnter={handleMouseEnter}>
           LMS
         </span>
-        <span className="relative z-10 cursor-pointer mr-5 text-white/25 hover:text-white" onMouseEnter={handleMouseEnter}>
+        <span className="relative z-10 cursor-pointer mr-5 text-blue-500/60 hover:text-white" onMouseEnter={handleMouseEnter}>
           features
         </span>
-        <span className="relative z-10 cursor-pointer mr-5 text-white/25 hover:text-white" onMouseEnter={handleMouseEnter}>
+        <span className="relative z-10 cursor-pointer mr-5 text-blue-500/60 hover:text-white" onMouseEnter={handleMouseEnter}>
           Contact
         </span>
-        <span className="relative z-10 cursor-pointer mr-5 text-white/25 hover:text-white" onMouseEnter={handleMouseEnter}>
+        <span className="relative z-10 cursor-pointer mr-5 text-blue-500/60 hover:text-white" onMouseEnter={handleMouseEnter}>
           Blogs
         </span>
-        <span className="relative z-10 cursor-pointer text-white/25 hover:text-white/40" onMouseEnter={handleMouseEnter}>
+        <span className="relative z-10 cursor-pointer text-blue-500/60 hover:text-white/40" onMouseEnter={handleMouseEnter}>
           Privacy Policy
         </span>
       </div>
