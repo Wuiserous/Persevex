@@ -22,7 +22,7 @@ export default function HeroSection() {
         ">
           Persevex
         </h1>
-        <span className="lg:text-2xl mb-10 text-white text-center lg:w-[650px]">Where innovation meets real-world learning through expert education and impactful internships.</span>
+        <span className="lg:text-2xl mb-10 text-white/60 text-center lg:w-[650px]">Where innovation meets real-world learning through expert education and impactful internships.</span>
         <button class="button">Explore courses</button>
       </div>
     </div>
