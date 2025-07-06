@@ -124,12 +124,12 @@ export default function Stars() {
     // Create occasional random shooting stars every few seconds
     intervalId = setInterval(() => {
       // e.g. ~20% chance every 2 seconds
-      if (Math.random() < 0.9) {
+      if (Math.random() < 0.6) {
         const x = Math.random() * canvas.width;
         const y = Math.random() * canvas.height;
         addShootingStar(x, y);
       }
-    }, 10);
+    }, 1000);
 
     return () => clearInterval(intervalId);
   }, []);
